@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
 import Scroll from './Scroll';
 import config from '../../config';
+
+import cardstackLogo from '../assets/img/cardstack-logo.png'
+import cardstackLogoFull from '../assets/img/cardstack-logo-full.png'
+
 export default class Header extends Component {
   constructor(props) {
     super(props);
@@ -40,7 +44,7 @@ export default class Header extends Component {
         id="mainNav"
       >
         <div className="container">
-          <a className="navbar-brand" href="#page-top">
+          <a className="navbar-brand" href="#page-top"> <span><img className='navbar-logo' src={cardstackLogo}/></span>
             {config.siteTitle}
           </a>
           <button
@@ -54,7 +58,7 @@ export default class Header extends Component {
             aria-label="Toggle navigation"
           >
             Menu
-            <i className="fas fa-bars"></i>
+            <i className="fas fa-bars"/>
           </button>
           <div
             className={`collapse navbar-collapse ${openMenu ? 'show' : ''}`}

@@ -32,11 +32,11 @@ class Scroll extends React.Component {
       switch (type) {
         case 'class':
           elem = document.getElementsByClassName(element)[0];
-          scroll = elem ? true : false;
+          scroll = !!elem;
           break;
         case 'id':
           elem = document.getElementById(element);
-          scroll = elem ? true : false;
+          scroll = !!elem;
           break;
         default:
       }
