@@ -41,7 +41,7 @@ const IndexPage = () => (
         <header className="masthead">
             <div className="container d-flex h-100 align-items-center">
                 <div className="mx-auto text-center">
-                    <h1 className="mx-auto my-0 text-uppercase">{config.heading}</h1>
+                    <h1 className="mx-auto text-uppercase">{config.heading}</h1>
                     <h2 className="text-white-50 mx-auto mt-2 mb-5">
                         {config.subHeading}
                     </h2>
@@ -56,7 +56,7 @@ const IndexPage = () => (
 
         <section id="about" className="about-section text-center">
             <div className="container">
-                <div className='row' style={{'text-align': 'center'}}>
+                <div className='row' style={{'textAlign': 'center'}}>
                     <div className="col-lg-8 mx-auto">
                         <h2 className="text-white mb-4">Expertise, Experience and Proven Track Record</h2>
                         <p className="text-white-50">

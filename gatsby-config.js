@@ -24,7 +24,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-s3`,
       options: {
-        bucketName: "www.card-stack.co.uk",
+        bucketName: "card-stack.co.uk",
       },
     },
   ],

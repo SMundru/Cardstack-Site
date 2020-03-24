@@ -3,7 +3,6 @@ import Scroll from './Scroll';
 import config from '../../config';
 
 import cardstackLogo from '../assets/img/cardstack-logo.png'
-import cardstackLogoFull from '../assets/img/cardstack-logo-full.png'
 
 export default class Header extends Component {
   constructor(props) {

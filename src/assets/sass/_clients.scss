@@ -68,8 +68,6 @@ article.certs.last {
   margin-right: 0px;
 }
 
-
-
 article.tech {
   float: left;
   display: table-cell;
@@ -103,9 +101,14 @@ article.clients.last {
   margin-right: 0px;
 }
 
+.masthead-text {
+  text-transform: uppercase;
+
+}
+
 .navbar-logo {
-  height: 60px;
-  width: 60px;
+  height: 30px;
+  width: 30px;
   margin-right: 5px;
   margin-bottom: 5px;
 }

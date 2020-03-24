@@ -1,5 +1,5 @@
 module.exports = {
-  siteTitle: 'Cardstack Consulting Limited', // <title>
+  siteTitle: 'Cardstack Consulting', // <title>
   manifestName: 'Cardstack',
   manifestShortName: 'Cardstack', // max 12 characters
   manifestStartUrl: '/',
@@ -8,8 +8,8 @@ module.exports = {
   manifestDisplay: 'standalone',
   manifestIcon: 'src/assets/img/cardstack-logo.png',
   pathPrefix: `/`, // This path is subpath of your hosting https://domain/portfolio
-  heading: 'Cardstack Consulting',
-  subHeading: 'Software, DevOps and Cloud (AWS) Consultancy',
+  heading: 'Cardstack',
+  subHeading: 'A Software, DevOps and Cloud (AWS) Consultancy',
 
   // social
   socialLinks: [
