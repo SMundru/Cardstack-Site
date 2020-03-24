@@ -1,109 +1,89 @@
 .client-container {
   alignment: center !important;
+  width: 100%;
+  align-items: center;
 }
 
-article.clients {
-  float: left;
+.clients {
   display: table-cell;
   vertical-align: middle;
   text-align: center;
-  width: 109px;
-  height: 100px;
-  margin-right: 15px;
-  margin-bottom: 15px;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
 }
 
-article.clients > img {
-  width: 75px;
-  height: 75px;
-}
-
-article.clients * {
+.clients * {
   vertical-align: middle;
 }
 
-article.clients span {
+.clients span {
   display: inline-block;
   height: 100%;
   width: 1px;
 }
 
-article.clients.last {
+.clients.last {
   margin-right: 0px;
 }
 
-article.certs {
-  float: left;
+.certs {
   display: table-cell;
   vertical-align: middle;
   text-align: center;
-  width: 170px;
-  height: 150px;
-  margin-right: 15px;
-  margin-bottom: 15px;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
 }
 
-article.certs > img {
+.certs > img {
   width: 125px;
   height: 125px;
 }
 
-article.certs * {
+.certs * {
   vertical-align: middle;
 }
 
-article.certs span {
+.certs span {
   display: inline-block;
   height: 100%;
   width: 1px;
 }
 
-article.certs.last {
+.certs.last {
   margin-right: 0px;
 }
 
-article.tech {
+.tech {
   float: left;
   display: table-cell;
   vertical-align: middle;
   text-align: center;
   width: 90px;
   height: 80px;
-  margin-right: 15px;
-  margin-bottom: 15px;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
 }
 
-article.tech > img {
+.tech > img {
   width: 80px;
   height: 60px;
 }
 
-article.tech * {
+.tech * {
   vertical-align: middle;
 }
 
-article.tech span {
+.tech span {
   display: inline-block;
   height: 100%;
   width: 1px;
 }
 
-article.clients.last {
-  margin-right: 0px;
-}
-
 .masthead-text {
   text-transform: uppercase;
-
 }
 
 .navbar-logo {
@@ -111,4 +91,104 @@ article.clients.last {
   width: 30px;
   margin-right: 5px;
   margin-bottom: 5px;
+}
+
+@media only screen and (min-width: 300px) {
+  .certs {
+    width: 35px;
+    height: 35px;
+    margin-left: 13px;
+    margin-right: 13px;
+    margin-top: 15px;
+  }
+}
+
+@media only screen and (min-width: 350px) {
+  .certs {
+    width: 50px;
+    height: 50px;
+    margin-left: 13px;
+    margin-right: 13px;
+    margin-top: 15px;
+  }
+}
+
+@media only screen and (min-width: 400px) {
+  .certs {
+    width: 50px;
+    height: 50px;
+    margin-left: 17px;
+    margin-right: 17px;
+    margin-top: 15px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .certs {
+    width: 100px;
+    height: 100px;
+    margin-left: 31px;
+    margin-right: 31px;
+    margin-top: 15px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .certs {
+    width: 130px;
+    height: 130px;
+    margin-left: 21px;
+    margin-right: 21px;
+    margin-top: 15px;
+  }
+}
+
+@media only screen and (min-width: 300px) {
+  .clients {
+    width: 35px;
+    height: 35px;
+    margin-left: 13px;
+    margin-right: 13px;
+    margin-top: 15px;
+  }
+}
+
+@media only screen and (min-width: 350px) {
+  .clients {
+    width: 50px;
+    height: 50px;
+    margin-left: 13px;
+    margin-right: 13px;
+    margin-top: 15px;
+  }
+}
+
+@media only screen and (min-width: 400px) {
+  .clients {
+    width: 50px;
+    height: 50px;
+    margin-left: 17px;
+    margin-right: 17px;
+    margin-top: 15px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .clients {
+    width: 100px;
+    height: 100px;
+    margin-left: 31px;
+    margin-right: 31px;
+    margin-top: 15px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .clients {
+    width: auto;
+    height: 100px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 15px;
+  }
 }
