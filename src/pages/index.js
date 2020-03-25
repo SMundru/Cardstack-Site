@@ -53,95 +53,95 @@ const IndexPage = () => (
                 </div>
             </div>
         </header>
-
         <section id="about" className="about-section text-center">
             <div className="container">
                 <div className='row' style={{'textAlign': 'center'}}>
-                    <div className="col-lg-8 mx-auto">
+                    <div className="col-lg-8 mx-auto about-section-padding">
                         <h2 className="text-white mb-4">Expertise, Experience and Proven Track Record</h2>
                         <p className="text-white-50">
-                            Experienced in designing and development of the enterprise software using cutting edge technologies such as
-                            Java (8), SpringBoot, Hazelcast, AWS (EC2, SQS, SNS, S3, DynamoDB, Kinesis, CloudFormation and so on).
+                            Experienced in designing and development of the enterprise software using cutting edge technologies.
                             Passionate about Cloud and Server-less Computing, AWS in particular.
                         </p>
+                    </div>
+                    <div className="container col-lg-8 text-padding-offset">
                         <h5 className='text-white'>Certifications</h5>
-                        <div className='row'>
-                            <article className="certs">
-                                <span></span><img src={ocjpLogo} alt="logo"/>
-                            </article>
+                        <ul className='row'>
+                            <li>
+                                <img className="certs" src={ocjpLogo} alt="logo"/>
+                            </li>
 
-                            <article className="certs">
-                                <span></span><img src={ccp} alt="logo"/>
-                            </article>
+                            <li>
+                                <img className="certs" src={ccp} alt="logo"/>
+                            </li>
 
-                            <article className="certs">
-                                <span></span><img src={devAwsLogo} alt="logo"/>
-                            </article>
+                            <li>
+                                <img className="certs" src={devAwsLogo} alt="logo"/>
+                            </li>
 
-                            <article className="certs last">
-                                <span></span><img src={solArchLogo} alt="logo"/>
-                            </article>
-                        </div>
-                        <br/>
-                        <br/>
+                            <li>
+                                <img className="certs" src={solArchLogo} alt="logo"/>
+                            </li>
+                        </ul>
+                    </div>
+                        <div className="container col-lg-10 text-padding">
                         <h5 className='text-white'>Clients</h5>
-                        <div className='row'>
-                            <article className="clients">
-                                <span></span><img src={bookingGoLogo} alt="logo"/>
-                            </article>
+                        <ul className='row'>
+                            <li>
+                                <img className="clients" src={bookingGoLogo} alt="logo"/>
+                            </li>
 
-                            <article className="clients">
-                                <span></span><img src={nbrownLogo} alt="logo"/>
-                            </article>
+                            <li>
+                                <img className="clients" src={nbrownLogo} alt="logo"/>
+                            </li>
 
-                            <article className="clients">
-                                <span></span><img src={powaLogo} alt="logo"/>
-                            </article>
+                            <li>
+                                <img className="clients" src={powaLogo} alt="logo"/>
+                            </li>
 
-                            <article className="clients">
-                                <span></span><img src={tekSystemsLogo} alt="logo"/>
-                            </article>
+                            <li>
+                                <img className="clients" src={tekSystemsLogo} alt="logo"/>
+                            </li>
 
-                            <article className="clients">
-                                <span></span><img src={tcgLogo} alt="logo"/>
-                            </article>
+                            <li>
+                                <img className="clients" src={tcgLogo} alt="logo"/>
+                            </li>
 
-                            <article className="clients last">
-                                <span></span><img src={thgLogo} alt="logo"/>
-                            </article>
+                            <li>
+                                <img className="clients" src={thgLogo} alt="logo"/>
+                            </li>
+                        </ul>
                         </div>
-                        <br/>
-                        <br/>
-                        <h5 className='text-white'>Technologies</h5>
-                        <div className='row'>
-                            <article className="tech">
-                                <span></span><img src={javaLogo} alt="logo"/>
-                            </article>
+                        <div className="container col-lg-8 text-padding">
+                        <h5 className='text-white'>Tech</h5>
+                        <ul className='row'>
+                            <li >
+                                <img className="tech" src={javaLogo} alt="logo"/>
+                            </li>
 
-                            <article className="tech">
-                                <span></span><img src={springLogo} alt="logo"/>
-                            </article>
+                            <li>
+                                <img className="tech" src={springLogo} alt="logo"/>
+                            </li>
 
-                            <article className="tech">
-                                <span></span><img src={vertxLogo} alt="logo"/>
-                            </article>
+                            <li>
+                                <img className="tech" src={vertxLogo} alt="logo"/>
+                            </li>
 
-                            <article className="tech">
-                                <span></span><img src={dockerLogo} alt="logo"/>
-                            </article>
+                            <li>
+                                <img className="tech" src={dockerLogo} alt="logo"/>
+                            </li>
 
-                            <article className="tech">
-                                <span></span><img src={awsLogo} alt="logo"/>
-                            </article>
+                            <li>
+                                <img className="tech" src={awsLogo} alt="logo"/>
+                            </li>
 
-                            <article className="tech">
-                                <span></span><img src={reactLogo} alt="logo"/>
-                            </article>
+                            <li>
+                                <img className="tech" src={reactLogo} alt="logo"/>
+                            </li>
 
-                            <article className="tech last">
-                                <span></span><img src={angularlogo} alt="logo"/>
-                            </article>
-                        </div>
+                            <li>
+                                <img className="tech" src={angularlogo} alt="logo"/>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>

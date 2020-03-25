@@ -1,5 +1,6 @@
 import React from 'react';
 import config from '../../config';
+import "../assets/sass/_clients.scss"
 
 export default function SocialLinks() {
   return (

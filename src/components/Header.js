@@ -43,7 +43,7 @@ export default class Header extends Component {
         id="mainNav"
       >
         <div className="container">
-          <a className="navbar-brand" href="#page-top"> <span><img className='navbar-logo' src={cardstackLogo}/></span>
+          <a className="navbar-brand" href="#page-top"> <span><img className='navbar-logo' src={cardstackLogo} alt=''/></span>
             {config.siteTitle}
           </a>
           <button
